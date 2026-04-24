@@ -39,11 +39,87 @@
                 <li class="address-item"><a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+        <button class="burger-btn" type="button">
+            <svg class="burger-icon" width="24" height="24" >
+                <use href="./images/icons.svg#burger"></use>
+            </svg>
+        </button>
        </div>
         
+        </div>
+
     </header>
 
+    <!--Mobile menu( is-open) begin-->
+
+<div class="mobile-menu-wrapper ">
+    <div class="container mobile-menu-container">
+        <button class="mobile-menu-close-btn button" type="button">
+            <svg class="mobile-menu-btn-close-icon" width="8" height="8" aria-label="mobile menu close icon">
+                <use href="./images/icons.svg#close"></use>
+            </svg>
+        </button>
+        <nav class="mobile-menu-navigation">
+            <ul class="mobile-menu">
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-link link" href="./">Studio</a>
+                </li>
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-link link" href="./">Portfolio</a>
+                </li>
+                <li class="mobile-menu-item"><a class="mobile-menu-link link" href="./">Contacts
+                    </a></li>
+            </ul>
+        </nav>
+
+        <address class="mobile-menu-contacts">
+            <ul class="mobile-menu-contacts-list">
+                <li class="mobile-menu-contacts-item"><a class="mobile-menu-contacts-link link"
+                        href="tel:+110001111111">+11
+                        (000) 111-11-11</a>
+                </li>
+                <li class="mobile-menu-contacts-item"><a class="mobile-menu-contacts-link link"
+                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            </ul>
+        </address>
+        <ul class="mobile-menu-social-list">
+            <li class="mobile-menu-social-list-item">
+                <a href="./" class="mobile-menu-social-list-link">
+                    <svg class="mobile-menu-social-list-icon" width="24" height="24">
+                        <use href="./images/icons.svg#instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-menu-social-list-item">
+                <a href="" class="mobile-menu-social-list-link">
+                    <svg class="mobile-menu-social-list-icon" width="24" height="24">
+                        <use href="./images/icons.svg#twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-menu-social-list-item">
+                <a href="" class="mobile-menu-social-list-link">
+                    <svg class="mobile-menu-social-list-icon" width="24" height="24">
+                        <use href="./images/icons.svg#facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-menu-social-list-item">
+                <a href="" class="mobile-menu-social-list-link">
+                    <svg class="mobile-menu-social-list-icon" width="24" height="24">
+                        <use href="./images/icons.svg#linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--Mobile menu end-->
+
     <main>
+
+        <!-- HERO -->
 
         <section class="hero">
 
@@ -53,6 +129,8 @@
             </div>
 
         </section>
+
+        <!-- OUR FEATURES -->
 
 
         <section class="features">
@@ -103,13 +181,18 @@
             </div>
         </section>
 
+        <!-- OUR TEAM -->
+
         <section class="team">
             <div class="container">
 
             <h2 class="team-heading">Our Team</h2>
             <ul class="team-list">
                 <li class="team-item">
-                    <img src="./images/img-3.jpg" width="264" alt="Mark Guerrero">
+
+                        <img src="./images/product-designer-1x.jpg"
+                        srcset="./images/product-designer-1x.jpg 1x, ./images/product-designer-2x.jpg 2x"
+                        alt="Mark Guerrero" width="264" height="260" />
                     <div class="team-box">
                     <h3 class="team-subtitle">Mark Guerrero</h3>
                     <p class="team-text">Product Designer</p>
@@ -146,7 +229,11 @@
                     </div>
                 </li>
                 <li class="team-item">
-                    <img src="./images/img-2.jpg" width="264" alt="Tom Ford">
+
+                    <img src="./images/frontend-developer-1x.jpg"
+                        srcset="./images/frontend-developer-1x.jpg 1x, ./images/frontend-developer-2x.jpg 2x"
+                        alt="Tom Ford" width="264" height="260" />
+                    
                     <div class="team-box">
                     <h3 class="team-subtitle">Tom Ford</h3>
                     <p class="team-text">Frontend Developer</p>
@@ -183,7 +270,11 @@
                     </div>
                 </li>
                 <li class="team-item">
-                    <img src="./images/img-1.jpg" width="264" alt="Camila Garcia">
+
+                    <img src="./images/marketing-1x.jpg"
+                        srcset="./images/marketing-1x.jpg 1x, ./images/marketing-2x.jpg 2x"
+                        alt="Camila Garcia" width="264" height="260" />
+
                     <div class="team-box">
                     <h3 class="team-subtitle">Camila Garcia</h3>
                     <p class="team-text">Marketing</p>
@@ -220,7 +311,11 @@
                     </div>
                 </li>
                 <li class="team-item">
-                    <img src="./images/img.jpg" width="264" alt="Daniel Wilson">
+
+                    <img src="./images/uidesigner-1x.jpg"
+                    srcset="./images/uidesigner-1x.jpg 1x, ./images/uidesigner-2x.jpg 2x"
+                    alt="Daniel Wilson" width="264" height="260" />
+
                     <div class="team-box">
                     <h3 class="team-subtitle">Daniel Wilson</h3>
                     <p class="team-text">UI Designer</p>
@@ -260,6 +355,8 @@
             </div>
         </section>
 
+        <!-- OUR PORTFOLIO -->
+
         <section class="portfolio">
             <div class="container">
             <h2 class="portfolio-title">Our Portfolio</h2>
@@ -267,7 +364,11 @@
                 <li class="portfolio-item">
 
                     <div class="overlay-box">
-                        <img src="./images/img-4.jpg" width="360" height="300" alt="Banking App">
+                        <img class="portfolio-img" srcset="
+                                      ./images/portfolio/desktop/banking-1x.jpg 1x,
+                                      ./images/portfolio/desktop/banking-2x.jpg 2x" 
+                                      src="./images/portfolio/desktop/banking-1x.jpg"
+                            alt="Using banking app with phone" width="288" />
 
                         <p class="overlay">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
@@ -285,7 +386,10 @@
                 <li class="portfolio-item">
 
                     <div class="overlay-box">
-                        <img src="./images/img-5.jpg" width="360" height="300" alt="Cashless Payment">
+                        <img class="portfolio-img" srcset="
+                                      ./images/portfolio/desktop/marketing-1x.jpg 1x ,
+                                      ./images/portfolio/desktop/marketing-2x.jpg 2x"
+                            src="./images/portfolio/./desktop/marketing-1x.jpg" alt="Cashless payment with phone" width="288" />
                     
                         <p class="overlay">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
@@ -303,8 +407,10 @@
                 <li class="portfolio-item">
          
                     <div class="overlay-box">
-                        <img src="./images/img-6.jpg" width="360" height="300" alt="Meditation App">
-
+                        <img class="portfolio-img" srcset="
+                                      ./images/portfolio/desktop/meditatio-1x.jpg 1x ,
+                                      ./images/portfolio/desktop/meditatio-2x.jpg 1x 2x"
+                            src="./images/portfolio/./desktop/meditatio-1x.jpg 1x" alt="Laptop and phone with meditation app" width="288" />
                     
                         <p class="overlay">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
@@ -322,7 +428,11 @@
                 <li class="portfolio-item">
 
                     <div class="overlay-box">
-                        <img src="./images/img-7.jpg" width="360" height="300" alt="Taxi Service">
+                        <img class="portfolio-img" srcset="
+                                      ./images/portfolio/desktop/taxi-1x.jpg 1x,
+                                      ./images/portfolio/desktop/taxi-2x.jpg 2x"
+                                       src="./images/portfolio/./desktop/taxi-1x.jpg"
+                            alt="Human is driving, a map is open on the phone" width="288" />
                     
                     
                         <p class="overlay">
@@ -341,7 +451,11 @@
                 <li class="portfolio-item">
 
                     <div class="overlay-box">
-                        <img src="./images/img-8.jpg" width="360" height="300" alt="Screen Illustrations">
+
+                    <img class="portfolio-img" srcset="
+                                  ./images/portfolio/desktop/screenillustrations-1x.jpg 1x,
+                                  ./images/portfolio/desktop/screenillustrations-2x.jpg 2x"
+                        src="./images/portfolio/./desktop/screenillustrations-1x.jpg" alt="Phone night illustrations" width="288" />
                     
                     
                         <p class="overlay">
@@ -358,7 +472,12 @@
                    </li>
                 <li class="portfolio-item">
                     <div class="overlay-box">
-                        <img src="./images/img-9.jpg" width="360" height="300" alt="Online Courses">
+
+                        <img class="portfolio-img" srcset="
+                                      ./images/portfolio/desktop/onlinecourses-1x.jpg 1x,
+                                      ./images/portfolio/desktop/onlinecourses-2x.jpg 2x"
+                            src="./images/portfolio/./desktop/onlinecourses-1x.jpg" alt="Lady with headphones is looking at the phone"
+                            width="288" />
                     
                     
                         <p class="overlay">
@@ -381,9 +500,14 @@
 
     </main>
 
+
+
     <footer class="footer">
         <div class="container footer-container">
+        <div class="upper-footer-box">
+
         <div class="footer-box">  
+
         <a href="./index.html" class="footer-logo">
             Web<span class="footer-logo-span">Studio</span></a>
         <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
@@ -391,7 +515,7 @@
 
         <div class="social-box">
             <p class="footer-social-text">Social media</p>
-            <ul class="social-list">
+            <ul class="footer-social-list">
                 <li class="social-list-item">
                     <a class="social-list-link footer-social-link" href="" aria-label="Instagram link">
                         <svg class="social-icon footer-social-icon" width="24" height="24">
@@ -422,6 +546,7 @@
                 </li>
             </ul>
         </div>
+        </div>
 
         <form class="subscribe-form">
             <p class="subscribe-form-description">Subscribe</p>
@@ -444,6 +569,9 @@
 
         </div>
     </footer>
+
+    
+<!-- MODAL FORM -->
 <!--"backdrop is-open"-->
    <div class="backdrop">
         <div class="modal">
@@ -497,13 +625,17 @@
                     <input class="contact-form-checkbox visually-hidden" id="user-privacy-policy" name="user-privacy-policy"
                         type="checkbox" value="true" required />
                     <label class="contact-form-checkbox-label" for="user-privacy-policy">
+                        
                         <span class="contact-form-own-checkbox">
                             <svg class="contact-form-own-checkbox-icon" width="10" height="8" aria-label="checkmark icon">
                                 <use href="./images/icons.svg#check"></use>
                             </svg>
                         </span>
-                        I accept the terms and conditions of the
-                        <a class="contact-form-privacy-policy-link" href="">Privacy Policy</a>
+                        
+                        <span class="contact-form-checkbox-text">
+                            I accept the terms and conditions of the
+                            <a class="contact-form-privacy-policy-link" href="">Privacy Policy</a>
+                        </span>
                     </label>
                 </div>
                 <button class="contact-form-submit-btn button" type="submit">Send
