@@ -991,9 +991,7 @@ a {
      overflow: hidden;
  }
 
-.portfolio-list {
-    margin-bottom: 120px;
-}
+
 
  .overlay {
      color: #f4f4fd;
@@ -1379,6 +1377,11 @@ a {
 
  }
 
+ .footer-container {
+     
+     text-align: center;
+ }
+
  .footer-box {
      margin-bottom: 72px;
     text-align: center;
@@ -1402,12 +1405,14 @@ a {
 }
 
 .footer-text {
+    text-align: left;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-top: 0px;
+    margin: 0 auto;
+    max-width: 288px;
 
 }
 
@@ -1540,6 +1545,11 @@ a {
         display: inline;
         text-align: start;
     }
+         .footer-text {
+             margin: 0;
+             
+             max-width: 264px;
+         }
 
     .footer-social-list {
         justify-content: flex-start;
